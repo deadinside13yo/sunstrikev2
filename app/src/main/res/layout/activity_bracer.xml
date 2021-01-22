@@ -9,24 +9,14 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
-            android:id="@+id/date"
-            android:text="Число"
-            android:layout_weight="1.5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
-        <TextView
-            android:text="Покупка"
+            android:text="Стоимость"
             android:textAlignment="center"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"/>
-        <TextView
-            android:textAlignment="center"
-            android:text="Продажа"
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+
     </LinearLayout>
     <ListView
         android:id="@+id/listView"
