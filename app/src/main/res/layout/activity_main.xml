@@ -29,8 +29,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
-                android:text="sunstrike"
-                android:fontFamily="@font/rthintalic"
+                android:text="Sunstrike"
+                android:fontFamily="@font/rbolditalic"
                 android:textColor="@color/TextColor"
                 android:textSize="35sp" />
         </LinearLayout>
@@ -53,6 +53,7 @@
                 android:text="bracer"
                 android:textColor="@color/TextColor"
                 android:layout_width="match_parent"
+                android:fontFamily="@font/rmediumitalic"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
         <LinearLayout
@@ -72,6 +73,7 @@
                 android:textSize="20sp"
                 android:layout_gravity="center"
                 android:text="ring"
+                android:fontFamily="@font/rregular"
                 android:textColor="@color/TextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -93,6 +95,7 @@
                 android:textSize="20sp"
                 android:layout_gravity="center"
                 android:text="circlet"
+                android:fontFamily="@font/rthintalic"
                 android:textColor="@color/TextColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -101,6 +104,7 @@
             android:background="@drawable/map_color"
             android:orientation="horizontal"
             android:onClick="MapClick"
+            android:fontFamily="@font/rblack"
             android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
