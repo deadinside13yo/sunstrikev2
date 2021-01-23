@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CircletActivity extends AppCompatActivity {
-    TextView textView;
+
     ListView listView;
     LayoutInflater layoutInflater;
     List<Decoration_list> decorList = new ArrayList<>();
@@ -45,12 +45,10 @@ public class CircletActivity extends AppCompatActivity {
     }
 
     private void Init() {
-
         listView=findViewById(R.id.listView);
         layoutInflater=layoutInflater.from(this);
         decorListAdapter = new CircletActivity.DecorListAdapter();
         listView.setAdapter(decorListAdapter);
-
     }
 
     private class DecorListAdapter extends BaseAdapter {

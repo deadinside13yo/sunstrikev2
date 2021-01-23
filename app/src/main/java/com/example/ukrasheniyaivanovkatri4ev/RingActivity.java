@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RingActivity extends AppCompatActivity {
-    TextView textView;
     ListView listView;
     LayoutInflater layoutInflater;
     List<Decoration_list> decorList = new ArrayList<>();

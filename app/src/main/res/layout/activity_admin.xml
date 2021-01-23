@@ -50,6 +50,5 @@
         android:text="@string/save"
         android:gravity="center_horizontal"
         android:layout_marginTop="220dp"
-
         android:onClick="Save"/>
 </FrameLayout>
