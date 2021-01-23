@@ -93,6 +93,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
-
+        <LinearLayout
+            android:background="@drawable/map_color"
+            android:orientation="horizontal"
+            android:onClick="MapClick"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/circlet_icon_foreground"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <TextView
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:text="on the map"
+                android:textColor="@color/TextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
     </LinearLayout>
 </FrameLayout>
