@@ -7,7 +7,6 @@ public class Decoration_list {
 
     public Decoration_list (int icon,  String decoration, double count) {
         Icon = icon;
-
         Decoration = decoration;
         Count = count;
     }
