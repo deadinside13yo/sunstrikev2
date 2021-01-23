@@ -72,8 +72,8 @@ public class RingActivity extends AppCompatActivity {
             Icon.setImageResource(rates.getIcon());
             Decoration.setText(rates.getDecoration());
             Count.setText(String.valueOf(rates.getCount()));
+
             return convertView;
         }
     }
-}
 }
