@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(MainActivity.this,MapActivity.class);
         startActivity(intent);
     }
+    public void AdminClick(View view) {
+        Intent intent=new Intent(MainActivity.this,AdminActivity.class);
+        startActivity(intent);
+    }
 }
