@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">UkrasheniyaIvanovKatri4ev</string>
+    <string name="app_name">SunstrikeIvanovKatri4ev</string>
+    <string name="save">Сохранить</string>
+    <string name="decorHint">Название</string>
+    <string name="countHint">Цена</string>
+    <string name="imageHint">SomeBullshit</string>
 </resources>

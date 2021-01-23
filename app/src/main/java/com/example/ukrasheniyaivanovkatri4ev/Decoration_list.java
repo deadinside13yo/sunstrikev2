@@ -3,9 +3,9 @@ package com.example.ukrasheniyaivanovkatri4ev;
 public class Decoration_list {
     private int Icon;
     private String Decoration;
-    private double Count;
+    private int Count;
 
-    public Decoration_list (int icon,  String decoration, double count) {
+    public Decoration_list (int icon,  String decoration, int count) {
         Icon = icon;
         Decoration = decoration;
         Count = count;
@@ -28,14 +28,13 @@ public class Decoration_list {
         Decoration = decoration;
     }
 
-    public double getCount() {
+    public int getCount() {
         return Count;
     }
 
-    public void setCount(double count) {
+    public void setCount(int count) {
         Count = count;
     }
-
 
 
 }

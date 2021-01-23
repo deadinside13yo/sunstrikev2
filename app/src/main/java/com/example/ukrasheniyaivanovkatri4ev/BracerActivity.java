@@ -31,6 +31,9 @@ public class BracerActivity extends AppCompatActivity {
     List<Decoration_list> decorList = new ArrayList<>();
     DecorListAdapter decorListAdapter;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
