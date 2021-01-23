@@ -26,8 +26,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BracerActivity extends AppCompatActivity {
-
-    RecyclerView recyclerView;
+    TextView textView;
+    ListView listView;
     LayoutInflater layoutInflater;
     List<Decoration_list> decorList = new ArrayList<>();
     DecorListAdapter decorListAdapter;
@@ -38,8 +38,6 @@ public class BracerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bracer);
         Init();
         Add();
-
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
     }
 
     private void Add() {
@@ -49,10 +47,10 @@ public class BracerActivity extends AppCompatActivity {
     }
 
     private void Init() {
-        recyclerView=findViewById(R.id.recyclerView);
+        listView=findViewById(R.id.listView);
         layoutInflater=layoutInflater.from(this);
         decorListAdapter=new DecorListAdapter();
-   //     recyclerView.setAdapter(decorListAdapter);
+        listView.setAdapter(decorListAdapter);
     }
 
 
