@@ -33,7 +33,6 @@ public class BracerActivity extends AppCompatActivity {
 
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +42,7 @@ public class BracerActivity extends AppCompatActivity {
     }
 
     private void Add() {
-     decorList.add(new Decoration_list(R.drawable.bracer_1_foreground, "bracer1", 12000));
+         decorList.add(new Decoration_list(R.drawable.bracer_1_foreground, "bracer1", 12000));
      decorList.add(new Decoration_list(R.drawable.bracer_2_foreground,"bracer2", 12000));
      decorList.add(new Decoration_list(R.drawable.bracer_3_foreground,"bracer3", 12000));
 

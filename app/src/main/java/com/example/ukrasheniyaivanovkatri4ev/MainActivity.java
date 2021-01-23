@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void BracerClick(View view) {
-        Intent intent=new Intent(MainActivity.this, BracerActivity.class);
+        Intent intent = new Intent(MainActivity.this, BracerActivity.class);
         startActivity(intent);
     }
     public void RingClick(View view) {

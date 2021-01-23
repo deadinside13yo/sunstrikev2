@@ -38,7 +38,7 @@
             android:background="@drawable/back_white_corners"
             android:orientation="horizontal"
             android:onClick="BracerClick"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="35dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
@@ -60,7 +60,7 @@
             android:background="@drawable/back_white_corners"
             android:orientation="horizontal"
             android:onClick="RingClick"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
@@ -82,7 +82,7 @@
             android:background="@drawable/back_white_corners"
             android:orientation="horizontal"
             android:onClick="CircletClick"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
@@ -105,7 +105,7 @@
             android:orientation="horizontal"
             android:onClick="MapClick"
             android:fontFamily="@font/rmediumitalic"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
@@ -125,7 +125,7 @@
         <Button
             android:background="@drawable/emerald_icon_foreground"
             android:layout_gravity="center"
-            android:layout_margin="50dp"
+            android:layout_margin="20dp"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:onClick="AdminClick"

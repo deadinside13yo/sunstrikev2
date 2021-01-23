@@ -7,6 +7,11 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class AdminActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_map);
+    }
     //  public final static String POSITION = "position";
     //  private Decoration_list decorList;
     //  EditText DecorTextView, CountTextView;
@@ -45,10 +50,10 @@ public class AdminActivity extends AppCompatActivity {
     public void Back(View view) {
      onBackPressed();
   }
-   public void Save(View view) {
+    public void Save(View view) {
         //   decorList.setDecoration(DecorTextView.getText().toString());
-        //decorList.setCount(CountTextView.getText().toString());
-        //  String count = CountTextView.getText().toString();
+        //   decorList.setCount(CountTextView.getText().toString());
+        //   String count = CountTextView.getText().toString();
 //
         //  decorList.setCount(parseIntOfDefault(count, decorList.getCount()));
         //     BracerActivity.UpdateList(decorList);
