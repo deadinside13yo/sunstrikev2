@@ -52,7 +52,7 @@ public class BracerActivity extends AppCompatActivity {
 
     private void Init() {
         listView=findViewById(R.id.listView);
-         layoutInflater=layoutInflater.from(this);
+        layoutInflater=layoutInflater.from(this);
         decorListAdapter=new DecorListAdapter();
         listView.setAdapter(decorListAdapter);
     }
