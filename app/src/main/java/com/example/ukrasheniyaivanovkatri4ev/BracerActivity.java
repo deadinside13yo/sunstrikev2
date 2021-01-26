@@ -28,7 +28,7 @@ public class BracerActivity extends AppCompatActivity {
     ListView listView;
     LayoutInflater layoutInflater;
     List<Decoration_list> decorList = new ArrayList<>();
-    DecorListAdapter decorListAdapter;
+   // DecorListAdapter decorListAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,8 @@ public class BracerActivity extends AppCompatActivity {
     private void Init() {
         listView=findViewById(R.id.listView);
         layoutInflater=layoutInflater.from(this);
-        decorListAdapter=new DecorListAdapter();
-        listView.setAdapter(decorListAdapter);
+     //   decorListAdapter=new DecorListAdapter();
+      //  listView.setAdapter(decorListAdapter);
     }
 
 
