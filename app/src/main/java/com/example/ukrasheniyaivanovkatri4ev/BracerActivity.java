@@ -1,6 +1,7 @@
 package com.example.ukrasheniyaivanovkatri4ev;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -25,10 +26,11 @@ import java.util.List;
 
 public class BracerActivity extends AppCompatActivity {
     TextView textView;
+    RecyclerView recyclerView;
     ListView listView;
     LayoutInflater layoutInflater;
     List<Decoration_list> decorList = new ArrayList<>();
-   // DecorListAdapter decorListAdapter;
+    DecorListAdapter decorListAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,11 @@ public class BracerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bracer);
         Init();
         Add();
+      //  RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        // создаем адаптер
+      //  DataAdapter adapter = new DataAdapter(this, decorList);
+        // устанавливаем для списка адаптер
+       // recyclerView.setAdapter(adapter);
     }
 
     private void Add() {
@@ -47,8 +54,8 @@ public class BracerActivity extends AppCompatActivity {
     private void Init() {
         listView=findViewById(R.id.listView);
         layoutInflater=layoutInflater.from(this);
-     //   decorListAdapter=new DecorListAdapter();
-      //  listView.setAdapter(decorListAdapter);
+        decorListAdapter=new DecorListAdapter();
+        listView.setAdapter(decorListAdapter);
     }
 
 
