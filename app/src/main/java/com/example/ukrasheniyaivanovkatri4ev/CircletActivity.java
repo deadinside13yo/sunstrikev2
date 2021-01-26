@@ -42,6 +42,9 @@ public class CircletActivity extends AppCompatActivity {
         decorList.add(new Decoration_list(R.drawable.circlet_icon_foreground, "circlet", 12000));
         decorList.add(new Decoration_list(R.drawable.circlet_icon_foreground,"circlet", 12000));
         decorList.add(new Decoration_list(R.drawable.circlet_icon_foreground,"circlet", 12000));
+        decorList.add(new Decoration_list(R.drawable.circlet_icon_foreground, "circlet", 12000));
+        decorList.add(new Decoration_list(R.drawable.circlet_icon_foreground,"circlet", 12000));
+        decorList.add(new Decoration_list(R.drawable.circlet_icon_foreground,"circlet", 12000));
     }
 
     private void Init() {

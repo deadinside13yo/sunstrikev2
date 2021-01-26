@@ -38,22 +38,21 @@ public class BracerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_bracer);
         Init();
         Add();
-      //  RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
-        // создаем адаптер
-      //  DataAdapter adapter = new DataAdapter(this, decorList);
-        // устанавливаем для списка адаптер
-       // recyclerView.setAdapter(adapter);
+
     }
 
     private void Add() {
-     decorList.add(new Decoration_list(R.drawable.bracer_1_foreground, "bracer1", 12000));
-     decorList.add(new Decoration_list(R.drawable.bracer_2_foreground,"bracer2", 12000));
-     decorList.add(new Decoration_list(R.drawable.bracer_3_foreground,"bracer3", 12000));
+        decorList.add(new Decoration_list(R.drawable.bracer_1_foreground,"bracer", 12000));
+        decorList.add(new Decoration_list(R.drawable.bracer_2_foreground,"bracer", 12000));
+        decorList.add(new Decoration_list(R.drawable.bracer_3_foreground,"bracer", 12000));
+        decorList.add(new Decoration_list(R.drawable.bracer_1_foreground,"bracer", 12000));
+        decorList.add(new Decoration_list(R.drawable.bracer_2_foreground,"bracer", 12000));
+        decorList.add(new Decoration_list(R.drawable.bracer_3_foreground,"bracer", 12000));
     }
 
     private void Init() {
         listView=findViewById(R.id.listView);
-        layoutInflater=layoutInflater.from(this);
+         layoutInflater=layoutInflater.from(this);
         decorListAdapter=new DecorListAdapter();
         listView.setAdapter(decorListAdapter);
     }

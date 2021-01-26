@@ -32,6 +32,9 @@ public class RingActivity extends AppCompatActivity {
         decorList.add(new Decoration_list(R.drawable.ring_icon_foreground, "ring", 12000));
         decorList.add(new Decoration_list(R.drawable.ring_icon_foreground,"ring", 12000));
         decorList.add(new Decoration_list(R.drawable.ring_icon_foreground,"ring", 12000));
+        decorList.add(new Decoration_list(R.drawable.ring_icon_foreground, "ring", 12000));
+        decorList.add(new Decoration_list(R.drawable.ring_icon_foreground,"ring", 12000));
+        decorList.add(new Decoration_list(R.drawable.ring_icon_foreground,"ring", 12000));
     }
 
     private void Init() {
