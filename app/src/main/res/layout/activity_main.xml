@@ -103,7 +103,6 @@
         <LinearLayout
             android:background="@drawable/map_color"
             android:orientation="horizontal"
-            android:onClick="MapClick"
             android:fontFamily="@font/rmediumitalic"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
@@ -128,8 +127,6 @@
             android:layout_margin="60dp"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:onClick="AdminClick"
             />
-
     </LinearLayout>
 </FrameLayout>

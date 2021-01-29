@@ -1,5 +1,6 @@
 package com.example.ukrasheniyaivanovkatri4ev;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -26,11 +27,11 @@ import java.util.List;
 
 public class BracerActivity extends AppCompatActivity {
     TextView textView;
-    RecyclerView recyclerView;
     ListView listView;
     LayoutInflater layoutInflater;
     List<Decoration_list> decorList = new ArrayList<>();
     DecorListAdapter decorListAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +41,7 @@ public class BracerActivity extends AppCompatActivity {
         Add();
 
     }
+
 
     private void Add() {
         decorList.add(new Decoration_list(R.drawable.bracer_1_foreground,"bracer", 12000));
